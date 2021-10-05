@@ -1,17 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function useForm(initial = {}) {
   // create a state object for our inputs
   const [inputs, setInputs] = useState(initial);
-  const initialValues = Object.values(initial).join("");
-
-  useEffect(() => {
-    // This function runs when the things watching change
-    setInputs(initial);
-  }, [initialValues]);
 
   // {
-  //   name: 'test',
+  //   name: 'wes',
   //   description: 'nice shoes',
   //   price: 1000
   // }
@@ -24,7 +18,6 @@ export default function useForm(initial = {}) {
     if (type === "file") {
       [value] = e.target.files;
     }
-
     setInputs({
       // copy the existing state
       ...inputs,

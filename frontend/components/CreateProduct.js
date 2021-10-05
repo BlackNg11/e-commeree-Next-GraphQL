@@ -4,9 +4,9 @@ import Form from "./styles/Form";
 export default function CreateProduct() {
   const { inputs, handleChange, clearForm, resetForm } = useForm({
     image: "",
-    name: "Nice Shoes",
-    price: 34234,
-    description: "These are the best shoes!",
+    name: "",
+    price: 0,
+    description: "",
   });
   return (
     <Form
