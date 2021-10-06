@@ -1,3 +1,5 @@
 # e-commereeeeeee
 
-Using Nextjs-GraphQl(Apollo)
+Using
+Client: Nextjs-GraphQl(Apollo)
+Server: CMS(keyStone)
