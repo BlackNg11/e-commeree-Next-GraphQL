@@ -7,9 +7,9 @@ export default function OrderPage() {
   // const page = parseInt(query.page);
   return (
     <div>
-      <Pagination />
+      <Pagination page={1} />
       <Products />
-      <Pagination />
+      <Pagination page={1} />
     </div>
   );
 }
