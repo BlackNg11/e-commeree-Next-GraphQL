@@ -35,7 +35,7 @@ function createClient({ headers, initialState }) {
       typePolicies: {
         Query: {
           fields: {
-            allProducts: paginationField(),
+            // allProducts: paginationField(),
           },
         },
       },
