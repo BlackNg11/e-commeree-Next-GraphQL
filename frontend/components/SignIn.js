@@ -76,7 +76,9 @@ export default function SignIn() {
             onChange={handleChange}
           />
         </label>
-        <button type="submit">Sign In!</button>
+        <button type="submit" style={{ cursor: "pointer" }}>
+          Sign In!
+        </button>
       </fieldset>
     </Form>
   );
